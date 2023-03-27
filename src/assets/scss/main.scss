@@ -1,4 +1,5 @@
 @use '_partial/reset.scss' as *;
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
 
 body {
     font-family: "Montserrat";
