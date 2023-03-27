@@ -1,17 +1,18 @@
 <script>
+import Card from './Card.vue';
+
 export default {
-    name: 'Main'
+    name: 'Main',
+    components: {
+        Card
+    }
 }
 </script>
 
 <template>
     <main>
         <div class="container">
-            <div class="card">
-                <div>image</div>
-                <h2>Title</h2>
-                <p>Type</p>
-            </div>
+            <Card />
         </div>
     </main>
 </template>
@@ -23,12 +24,6 @@ main {
         background-color: white;
         display: flex;
         flex-wrap: wrap;
-
-        .card {
-            text-align: center;
-            background-color: pink;
-            flex-basis: calc(100% / 5);
-        }
     }
 }
 </style>
