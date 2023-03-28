@@ -14,8 +14,8 @@ export default {
 
 <style lang="scss" scoped>
 .card {
-            text-align: center;
-            background-color: pink;
-            flex-basis: calc(100% / 5);
-        }
+    text-align: center;
+    background-color: pink;
+    flex-basis: calc(100% / 5);
+}
 </style>
